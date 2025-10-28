@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useContext } from "react";
 import "./FoodDisplay.css";
-import { StoreContext } from "../../context/storeContext";
+import { StoreContext } from "../../context/StoreContext.jsx";
 import FoodItem from "../FoodItem/FoodItem";
 
 const FoodDisplay = ({ category }) => {
